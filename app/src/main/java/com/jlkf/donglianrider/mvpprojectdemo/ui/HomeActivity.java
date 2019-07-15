@@ -82,7 +82,12 @@ public class HomeActivity extends BaseActivity<HomePresentImpl> implements HomeC
         //紧急修复内容   newbranch
         mTextView4 = findViewById(R.id.textView4);
         mTextView4.setOnClickListener(v ->
-                Log.d("HomeActivity","紧急修改"));
+                {
+                    Log.d("HomeActivity","紧急修改");
+                    Log.d("HomeActivity","再次紧急修改");
+
+                }
+        );
 
     }
 
