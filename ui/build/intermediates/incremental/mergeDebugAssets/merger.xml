@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\WorkSpace3.0.1\MvpProjectDemo\ui\src\main\assets"><file name="area.db" path="D:\WorkSpace3.0.1\MvpProjectDemo\ui\src\main\assets\area.db"/><file name="city1.json" path="D:\WorkSpace3.0.1\MvpProjectDemo\ui\src\main\assets\city1.json"/></source><source path="D:\WorkSpace3.0.1\MvpProjectDemo\ui\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\WorkSpace3.0.1\MvpProjectDemo\ui\src\debug\assets"/></dataSet></merger>
