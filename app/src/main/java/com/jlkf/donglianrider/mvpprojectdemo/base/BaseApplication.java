@@ -26,6 +26,7 @@ public class BaseApplication extends Application {
 
         // 在Application中初始化
         ToastUtils.init(this);
+
     }
 
     @Override

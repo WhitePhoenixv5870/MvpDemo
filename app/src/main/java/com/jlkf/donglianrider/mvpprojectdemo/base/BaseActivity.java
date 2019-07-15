@@ -38,7 +38,7 @@ public abstract class BaseActivity<T extends BasePresentImpl> extends AppCompatA
         mImmersionBar = ImmersionBar.with(this).statusBarDarkFont(true);
         mImmersionBar.init();
         AppManager.getAppManager().addActivity(this);
-        present = getInstance(this, 1);
+        present = getInstance(this, 0);
         present.addView( this);
         setContentView(intiLayout());
         //绑定控件需要在setContentView前初始化后
