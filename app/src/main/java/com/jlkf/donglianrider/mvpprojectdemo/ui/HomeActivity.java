@@ -1,6 +1,7 @@
 package com.jlkf.donglianrider.mvpprojectdemo.ui;
 
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import com.hjq.toast.ToastUtils;
@@ -31,6 +32,7 @@ public class HomeActivity extends BaseActivity<HomePresentImpl> implements HomeC
     private TextView mTextView3;
     private TimePickerView pvTime;
     private TextView mTextView2;
+    private TextView mTextView4;
 
 
     @Override
@@ -75,6 +77,13 @@ public class HomeActivity extends BaseActivity<HomePresentImpl> implements HomeC
         mLogin.setOnClickListener(v -> present.getData());
         mTextView3.setOnClickListener(v -> selectTime());
         mTextView2.setOnClickListener(v -> selectAddr());
+
+
+        //紧急修复内容   newbranch
+        mTextView4 = findViewById(R.id.textView4);
+        mTextView4.setOnClickListener(v ->
+                Log.d("HomeActivity","紧急修改"));
+
     }
 
     private void selectAddr() {
