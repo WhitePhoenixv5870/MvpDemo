@@ -58,6 +58,10 @@ public class HomeActivity extends BaseActivity<HomePresentImpl> implements HomeC
             @Override
             public void onClick(View v) {
                 present.getData();
+
+                int a = 1;
+                int b = 2;
+                int sum = a + b;
             }
         });
     }
